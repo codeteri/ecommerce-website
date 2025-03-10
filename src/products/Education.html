@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Worm - Education</title>
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: aliceblue;
+    }
+    nav {
+      background-color: #04223f;
+      padding: 10px;
+      text-align: center;
+    }
+    nav h1 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: rgb(61, 123, 208);
+    }
+    main {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .category-section {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .category-section img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+    .category-section h2 {
+      color: #04223f;
+    }
+    .category-section p {
+      color: #333;
+    }
+    .book-card {
+      background-color: white;
+      color: #04223f;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    .book-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .book-card h3 {
+      margin: 10px 0;
+    }
+    .book-card p {
+      margin: 5px 0;
+    }
+    .book-card a {
+      background-color: #04223f;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .category-section-books {
+      background-color: aliceblue;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    footer {
+      background-color: #04223f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Book Worm</h1>
+    <a href="../BookStore.html">Home</a>
+    <a href="./Fiction.html">Fiction</a>
+    <a href="./Non-Fiction.html">Non-Fiction</a>
+    <a href="./Education.html" class="active">Education</a>
+    <a href="./Childrens.html">Children's Books</a>
+    <a href="./Stationary.html">Stationary & Gifts</a>
+  </nav>
+  <main>
+    <section class="category-section">
+      <img src="/img/Education-categorie.png" style="height:40vh"alt="Education">
+      <h2>Education</h2>
+      <p>Discover our wide range of educational books, perfect for students, teachers, and lifelong learners. From textbooks to reference materials, we have everything you need to succeed in your studies and beyond.</p>
+    </section>
+    <div style="background-color: aliceblue; display: flex; flex-wrap: wrap; justify-content: center; padding: 20px;">
+      <a href="./Products/Education.html" style="font-size:xx-large;text-decoration: underline;width: 100%;text-align: center;color: #04223f;">Educational</a>
+      <!-- Book Card 1 -->
+      <div style="background-color: white; color: #04223f; border: 1px solid #ccc; border-radius: 10px; margin: 10px; padding: 20px; width: 200px; text-align: center;">
+        <img src="./img/A Brief History Of Time.png" alt="Education Book 1" style="width: 100%; border-radius: 10px;">
+        <h3>A Brief History of Time</h3>
+        <p>Stephen Hawking</p>
+        <p>R299.00</p>
+        <a href="./products/Education/Brief-History-Of-Time.html" style="background-color: #04223f; color: white; padding: 10px; border: none; border-radius: 5px; text-decoration: none;">Buy Now</a>
+      </div>
+      <!-- Book Card 2 -->
+      <div style="background-color: white; color: #04223f; border: 1px solid #ccc; border-radius: 10px; margin: 10px; padding: 20px; width: 200px; text-align: center;">
+        <img src="../img/SelfishGene.png" alt="Education Book 2" style="width: 100%; border-radius: 10px;">
+        <h3>The Selfish Gene</h3>
+        <p>Richard Dawkins</p>
+        <p>R239.00</p>
+        <button style="background-color: #04223f; color: white; padding: 10px; border: none; border-radius: 5px;">Buy Now</button>
+      </div>
+      <!-- Book Card 3 -->
+      <div style="background-color: white; color: #04223f; border: 1px solid #ccc; border-radius: 10px; margin: 10px; padding: 20px; width: 200px; text-align: center;">
+        <img src="../img/ThinkFast.png" alt="Education Book 3" style="width: 100%; border-radius: 10px;">
+        <h3>Thinking, Fast and Slow</h3>
+        <p>Daniel Kahneman</p>
+        <p>R499.00</p>
+        <button style="background-color: #04223f; color: white; padding: 10px; border: none; border-radius: 5px;">Buy Now</button>
+      </div>
+      <!-- Book Card 4 -->
+      <div style="background-color: white; color: #04223f; border: 1px solid #ccc; border-radius: 10px; margin: 10px; padding: 20px; width: 200px; text-align: center;">
+        <img src="../img/ArtOfLearning.png" alt="Education Book 4" style="width: 100%; border-radius: 10px;">
+        <h3>The Art of Learning</h3>
+        <p>Josh Waitzkin</p>
+        <p>R299.00</p>
+        <button style="background-color: #04223f; color: white; padding: 10px; border: none; border-radius: 5px;">Buy Now</button>
+      </div>
+      <!-- Book Card 5 -->
+      <div style="background-color: white; color: #04223f; border: 1px solid #ccc; border-radius: 10px; margin: 10px; padding: 20px; width: 200px; text-align: center;">
+        <img src="../img/How to Read A Book.png" alt="Education Book 5" style="width: 100%; border-radius: 10px;">
+        <h3>How to Read a Book</h3>
+        <p>Mortimer J. Adler</p>
+        <p>R687.00</p>
+        <button style="background-color: #04223f; color: white; padding: 10px; border: none; border-radius: 5px;">Buy Now</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Book Worm. All rights reserved.</p>
+    <p>
+      <a href="https://www.facebook.com">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </p>
+    <p>
+      <a href="/src/BookStore.html">Home</a>
+      <a href="/src/AboutUs.html">About Us</a>
+      <a href="/src/ContactUs.html">Contact Us</a>
+      <a href="/src/ProductCategories.html">Product Categories</a>
+      <a href="/src/FeaturedAuthors.html">Featured Authors</a>
+    </p>
+  </footer>
+</body>
+</html>

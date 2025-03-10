@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dflex@latest/dist/dflex.min.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Book Worm - Featured Authors</title>
+  </head>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    nav {
+      background-color: #04223f;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: rgb(29, 81, 225);
+    }
+    header {
+      padding-top: 60px;
+      text-align: center;
+      background-color: #04223f;
+      color: white;
+      padding: 20px 0;
+    }
+    main {
+      padding: 20px;
+    }
+    .author-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .author-card img {
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 100px;
+      height: 100px;
+    }
+    .author-card h2 {
+      margin: 0;
+      color: #04223f;
+    }
+    .author-card p {
+      margin: 5px 0 0;
+      color: #333;
+    }
+    footer {
+      background-color: #04223f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Book Worm</h1>
+    <a href="./BookStore.html" class="active">Home</a>
+    <a href="./products/Fiction.html">Fiction</a>
+    <a href="./products/Non-Fiction.html">Non-Fiction</a>
+    <a href="./products/Education.html">Education</a>
+    <a href="./products/Childrens.html">Children's Books</a>
+    <a href="./products/Stationary.html">Stationary & Gifts</a>
+  </nav>
+  <header style="padding-top: 150px;">
+    <h1>Featured Authors</h1>
+  </header>
+  <main>
+    <section class="author-card">
+      <img src="/img/JeffKinney.png" alt="Jeff Kinney">
+      <div>
+        <h2>Jeff Kinney</h2>
+        <p>Jeff Kinney is the author of the popular "Diary of a Wimpy Kid" series, which has sold millions of copies worldwide and has been adapted into several films.</p>
+      </div>
+    </section>
+    <section class="author-card">
+      <img src="/img/GeorgeOrwell.png" alt="George Orwell">
+      <div>
+        <h2>George Orwell</h2>
+        <p>George Orwell is best known for his dystopian novels "1984" and "Animal Farm," which have had a profound impact on modern literature and political thought.</p>
+      </div>
+    </section>
+    <section class="author-card">
+      <img src="/img/JKRow.jpeg" alt="J.K. Rowling">
+      <div>
+        <h2>J.K. Rowling</h2>
+        <p>J.K. Rowling is the author of the beloved "Harry Potter" series, which has become a global phenomenon and has inspired a generation of readers.</p>
+      </div>
+    </section>
+    <section class="author-card">
+      <img src="/img/MichelleObama.png" alt="Michelle Obama">
+      <div>
+        <h2>Michelle Obama</h2>
+        <p>Michelle Obama is the author of the bestselling memoir "Becoming," which chronicles her journey from the South Side of Chicago to the White House.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Book Worm. All rights reserved.</p>
+    <p>
+      <a href="https://www.facebook.com">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </p>
+    <p>
+      <a href="./BookStore.html">Home</a>
+      <a href="./AboutUs.html">About Us</a>
+      <a href="./ContactUs.html">Contact Us</a>
+      <a href="./ProductCategories.html">Product Categories</a>
+      <a href="./FeaturedAuthors.html">Featured Authors</a>
+    </p>
+  </footer>
+</body>
+</html>

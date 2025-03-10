@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Worm - Thinking, Fast and Slow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: aliceblue;
+    }
+    nav {
+      background-color: #04223f;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: rgb(29, 81, 225);
+    }
+    main {
+      padding: 20px;
+      margin-top: 80px;
+    }
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .product-image img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+    .product-info {
+      max-width: 600px;
+      margin-left: 20px;
+    }
+    .product-info h2 {
+      color: #04223f;
+    }
+    .product-info p {
+      color: #333;
+    }
+    .product-info a {
+      display: inline-block;
+      background-color: #04223f;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .customer-reviews {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .customer-reviews h3 {
+      color: #04223f;
+    }
+    .customer-reviews .review {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #04223f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Book Worm</h1>
+    <a href="/src/BookStore.html" class="active">Home</a>
+    <a href="/src/products/Fiction.html">Fiction</a>
+    <a href="/src/products/Non-Fiction.html">Non-Fiction</a>
+    <a href="/src/products/Education.html">Education</a>
+    <a href="/src/products/Childrens.html">Children's Books</a>
+    <a href="/src/products/Stationary.html">Stationary & Gifts</a>
+  </nav>
+  <main>
+    <section class="product-detail" style="flex-direction:row-reverse; margin-top: 35px;">
+      <div class="product-image">
+        <img src="/img/ThinkFast.png" alt="Thinking, Fast and Slow Book Cover">
+      </div>
+      <div class="product-info">
+        <h1>Thinking, Fast and Slow</h1>
+        <p><strong>Author:</strong> Daniel Kahneman</p>
+        <p><strong>Price:</strong> R199.00</p>
+        <p><strong>Description:</strong> Thinking, Fast and Slow is a best-selling book published in 2011 by Nobel Memorial Prize in Economic Sciences laureate Daniel Kahneman. It was the 2012 winner of the National Academies Communication Award for best creative work that helps the public understanding of topics in behavioral science, engineering, or medicine. (Brand New)</p>
+        <p><strong>Condition:</strong> 10/10</p>
+        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (4.8/5)</p>
+        <a href="/src/CheckOut.html">Add To Cart</a>
+      </div>
+    </section>
+    <section class="customer-reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <p><strong>Ayanda Nkosi:</strong> A brilliant book that offers deep insights into the human mind. Highly recommend!</p>
+      </div>
+      <div class="review">
+        <p><strong>Thabo Mthembu:</strong> An eye-opening read that changes the way you think about thinking. A must-read.</p>
+      </div>
+      <div class="review">
+        <p><strong>Zanele Khumalo:</strong> Daniel Kahneman's work is groundbreaking. This book is both informative and engaging.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Book Worm. All rights reserved.</p>
+    <p>
+      <a href="https://www.facebook.com">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </p>
+    <p>
+      <a href="/src/BookStore.html">Home</a>
+      <a href="/src/AboutUs.html">About Us</a>
+      <a href="/src/ContactUs.html">Contact Us</a>
+      <a href="/src/ProductCategories.html">Product Categories</a>
+      <a href="/src/FeaturedAuthors.html">Featured Authors</a>
+    </p>
+  </footer>
+</body>
+</html>

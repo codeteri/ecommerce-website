@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <title>Book Worm - Categories</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    nav {
+      background-color: #04223f;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: rgb(29, 81, 225);
+    }
+    header {
+      padding-top: 60px;
+      text-align: center;
+      background-color: #04223f;
+      color: white;
+      padding: 20px 0;
+    }
+    main {
+      padding: 20px;
+    }
+    .category-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .category-card img {
+      border-radius: 10px;
+      margin-right: 20px;
+      width: 100px;
+      height: 100px;
+    }
+    .category-card h2 {
+      margin: 0;
+      color: #04223f;
+    }
+    .category-card p {
+      margin: 5px 0 0;
+      color: #333;
+    }
+    footer {
+      background-color: #04223f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Book Worm</h1>
+    <a href="./BookStore.html" class="active">Home</a>
+    <a href="./products/Fiction.html">Fiction</a>
+    <a href="./products/Non-Fiction.html">Non-Fiction</a>
+    <a href="./products/Education.html">Education</a>
+    <a href="./products/Childrens.html">Children's Books</a>
+    <a href="./products/Stationary.html">Stationary & Gifts</a>
+  </nav>
+  <header style="padding-top: 150px;">
+    <h1>Categories</h1>
+  </header>
+  <main>
+    <section class="category-card">
+      <img src="/img/Fiction.png" alt="Fiction">
+      <div>
+        <h2>Fiction</h2>
+        <p>Explore our wide range of fiction books, from classic literature to contemporary novels. Dive into stories that captivate and inspire.</p>
+        <a href="./products/Fiction.html" style="color: #04223f; text-decoration: none;">Browse Fiction</a>
+      </div>
+    </section>
+    <section class="category-card">
+      <img src="/img/Non-Fiction.png" alt="Non-Fiction">
+      <div>
+        <h2>Non-Fiction</h2>
+        <p>Discover our collection of non-fiction books, including biographies, memoirs, self-help, and more. Learn and grow with every page.</p>
+        <a href="./products/Non-Fiction.html" style="color: #04223f; text-decoration: none;">Browse Non-Fiction</a>
+      </div>
+    </section>
+    <section class="category-card">
+      <img src="/img/Education-categorie.png" alt="Education">
+      <div>
+        <h2>Education</h2>
+        <p>Find educational books for all ages and levels. From textbooks to reference materials, we have everything you need to succeed.</p>
+        <a href="./products/Education.html" style="color: #04223f; text-decoration: none;">Browse Education</a>
+      </div>
+    </section>
+    <section class="category-card">
+      <img src="/img/ChildrensBooks.png" alt="Children's Books">
+      <div>
+        <h2>Children's Books</h2>
+        <p>Delight your little ones with our selection of children's books. From picture books to young adult novels, there's something for every age.</p>
+        <a href="./products/Childrens.html" style="color: #04223f; text-decoration: none;">Browse Children's Books</a>
+      </div>
+    </section>
+    <section class="category-card">
+      <img src="/img/Stationary&Gifts.png" alt="Stationary & Gifts">
+      <div>
+        <h2>Stationary & Gifts</h2>
+        <p>Shop our range of stationary and gifts. From notebooks and pens to unique gift items, find the perfect addition to your collection.</p>
+        <a href="./products/Stationary.html" style="color: #04223f; text-decoration: none;">Browse Stationary & Gifts</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Book Worm. All rights reserved.</p>
+    <p>
+      <a href="https://www.facebook.com">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </p>
+    <p>
+      <a href="./BookStore.html">Home</a>
+      <a href="./AboutUs.html">About Us</a>
+      <a href="./ContactUs.html">Contact Us</a>
+      <a href="./ProductCategories.html">Product Categories</a>
+      <a href="./FeaturedAuthors.html">Featured Authors</a>
+    </p>
+  </footer>
+</body>
+</html>

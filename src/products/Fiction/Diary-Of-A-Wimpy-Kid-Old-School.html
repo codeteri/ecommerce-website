@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Worm - Diary of a Wimpy Kid: Old School</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: aliceblue;
+    }
+    nav {
+      background-color: #04223f;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: rgb(29, 81, 225);
+    }
+    main {
+      padding: 20px;
+      margin-top: 80px;
+    }
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .product-image img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+    .product-info {
+      max-width: 600px;
+      margin-left: 20px;
+    }
+    .product-info h2 {
+      color: #04223f;
+    }
+    .product-info p {
+      color: #333;
+    }
+    .product-info a {
+      display: inline-block;
+      background-color: #04223f;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .customer-reviews {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .customer-reviews h3 {
+      color: #04223f;
+    }
+    .customer-reviews .review {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #04223f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Book Worm</h1>
+    <a href="/src/BookStore.html" class="active">Home</a>
+    <a href="/src/products/Fiction.html">Fiction</a>
+    <a href="/src/products/Non-Fiction.html">Non-Fiction</a>
+    <a href="/src/products/Education.html">Education</a>
+    <a href="/src/products/Childrens.html">Children's Books</a>
+    <a href="/src/products/Stationary.html">Stationary & Gifts</a>
+  </nav>
+  <main>
+    <section class="product-detail" style="flex-direction:row-reverse; margin-top: 35px;">
+      <div class="product-image">
+        <img src="/img/DOF3.png" style="height: 48vh;" alt="Diary of a Wimpy Kid: Old School Book Cover">
+      </div>
+      <div class="product-info">
+        <h1>Diary of a Wimpy Kid: Old School</h1>
+        <p><strong>Author:</strong> Jeff Kinney</p>
+        <p><strong>Price:</strong> R239.00</p>
+        <p><strong>Description:</strong> Diary of a Wimpy Kid: Old School is a children's novel written by American author Jeff Kinney. It is the tenth book in the Diary of a Wimpy Kid series. The book was released on November 3, 2015. (Second Hand)</p>
+        <p><strong>Condition:</strong> New</p>
+        <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (4.7/5)</p>
+        <a href="/src/CheckOut.html">Add To Cart</a>
+      </div>
+    </section>
+    <section class="customer-reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <p><strong>Caitlin Poole:</strong> Another fantastic book in the series. My kids can't get enough of it!</p>
+      </div>
+      <div class="review">
+        <p><strong>Samukeliswe Zwane:</strong> Jeff Kinney does it again. A hilarious and entertaining read.</p>
+      </div>
+      <div class="review">
+        <p><strong>Safiya Adams:</strong> A great addition to the series. My children love it and so do I!</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Book Worm. All rights reserved.</p>
+    <p>
+      <a href="https://www.facebook.com">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </p>
+    <p>
+      <a href="/src/BookStore.html">Home</a>
+      <a href="/src/AboutUs.html">About Us</a>
+      <a href="/src/ContactUs.html">Contact Us</a>
+      <a href="/src/ProductCategories.html">Product Categories</a>
+      <a href="/src/FeaturedAuthors.html">Featured Authors</a>
+    </p>
+  </footer>
+</body>
+</html>
